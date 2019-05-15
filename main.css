@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  overflow: hidden;
+  width: 360px;
+  height: 130px;
+  margin: 20px 0;
+}
+
+.container img {
+  user-select: none;
+  pointer-events: none;
+  height: 100%;
+}
+
+.swipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
